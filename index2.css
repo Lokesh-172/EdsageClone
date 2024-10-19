@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #F7F7F7;
+    overflow-x: hidden;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+.nav {
+    height: 5.9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw 0;
+    margin-bottom: 10px;
+}
+
+.box {
+    z-index: 1000;
+    padding: 0px 25px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 2px lightgray;
+    border-radius: 40px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+}
+.box img {
+    width: 8vw; 
+    height: auto; 
+    
+}
+.navButton {
+    margin: 0 1vw;
+    font-size: 1.2vw;
+    color: black;
+    cursor: pointer;
+}
+.navButton button {
+    padding: 0.5vw 1.5vw;
+    border: none;
+    border-radius: 20px;
+    background-color: #9fc9ff; 
+    color: black;
+    font-size: 1vw;
+    cursor: pointer;
+}
+.signIn { 
+    border: 2px solid #9fc9ff; 
+    color: black;
+}
+.contact button {
+    background-color: #85B5FE;
+    color: black;
+}
+.ri-shopping-cart-2-fill, .ri-search-line, .ri-phone-fill {
+    font-size: 1.5vw;
+    color: black;
+    margin-right: 0.5vw;
+}
+.ri-shopping-cart-2-fill, .ri-search-line{
+    border: 1px solid #666;
+    padding: 4px 4px;
+    border-radius: 15px;
+    background-color: #e7e4e4;
+}
+.first-scroll{
+    background-color: #141E2E;
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15vw;
+    padding-right: 10vw;
+    color: wheat;
+    
+}
+.first-scroll-part1{
+    font-size: 20px;
+    height: 100%;
+    width: 15vw;
+    font-size: 4vw;
+}
+.first-scroll-part2{
+    height: 100%;
+    width: 50%;
+    background-image: url(image\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+.text{
+    color: white;
+    font-weight: 900;
+    line-height: 4.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text span{
+    color: #6EA6FC;
+}
+.text button{
+    border: 2px solid #83B3FC;
+    padding: 20px 30px;
+    border-radius: 40px;
+    font-size: 1.5vw;
+    background-color: #83B3FC;
+    margin-top: 20px;
+}
+.space{
+    height: 14vh;
+    width: 100%;
+}
+.second-scroll{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+}
+.second-scroll-part1{
+    width: 50%;
+    height: 100%;
+    background-image: url(main3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0%;
+    transform: scale(0.5);
+    animation: bulge 2s ease-in-out infinite;
+}
+
+@keyframes bulge {
+    0%, 100% {
+        opacity: 1;               
+        transform: scale(0.7);     
+    }
+    50% {
+        opacity: 1;            
+        transform: scale(1);    
+    }
+}
+.second-scroll-part2{
+    width: 50%;
+    height: 100%;
+    padding-right: 60px;
+    
+}
+.training {
+    font-size: 4vw;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 4.2vw;
+    letter-spacing: -0.02em; 
+    padding: 20px 35px;
+    border: 2px solid white;
+    box-shadow: 15px 15px 15px lightblue , -15px 15px 15px lightblue;
+}
+
+.second-scroll-part2 span {
+    padding-right: 40px;
+    font-size: 1.2vw;
+    line-height: 1.5vw; 
+    letter-spacing: -0.01em; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    display: inline-block;
+}
+.space2{
+    height: 2vh;
+    width: 100vw;
+}
+
+.third-scroll {
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #E6F9F8; 
+}
+
+.third-scroll-part-text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 40px;
+}
+
+.text-content {
+    font-size: 1.5vw;
+    font-family: 'Verdana', sans-serif;
+    text-align: left;
+    color: black;
+    padding: 30px;
+}
+
+.text-content h2 {
+    font-size: 3vw;
+    font-weight: bold;
+    margin-bottom: 1vw;
+}
+.text-content strong{
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.text-content p {
+    font-size: 1.2vw;
+    margin-bottom: 1.5vw;
+}
+
+.text-content button {
+    padding: 1vw 2vw;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 1.2vw;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.third-scroll-part-image {
+    padding: 20px 0px;
+    width: 50%;
+    background-image: url('main2.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fourth-scroll{
+    height: 60vh;
+    width: 100%;
+    background-color: #151E2E;
+    color: white;
+    padding: 70px 100px;
+}
+.fourth-scroll-instructor{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.instructor{
+    height: 100%;
+    width: 25%;
+    padding: 20px 20px;
+}
+.instructor-image{
+    border: none;
+    border-radius: 100px;
+    height: 25%;
+    width: 30%;
+}
+.instructor-name{
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+.instructor-image{
+    background-image: url(Anon.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fifth-scroll{
+    height: 38vh;
+    width: 100%;
+    padding: 80px 100px;
+}
+.fifth-scroll h1{
+    font-size: 3vw;
+    font-weight: 1000;
+}
+.fifth-scroll h4{
+    font-weight: 500;
+    font-size: 1.6vw;
+}
+.fifth-scroll button {
+    padding: 1vw 2vw;
+    border: none;
+    background-color: #5395f9;
+    color: white;
+    font-size: 1.2vw;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.bottom{
+    height: 51.5vh;
+    width: 100%;
+    background-color: #141E2E;
+    color: white;
+    padding: 80px 120px;
+}
+.footer {
+    text-align: center;
+    color: white;
+}
+.fotter-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.line{
+    height: 2px;
+    background-color: white;
+
+}
+.footer h2 {
+    font-size: 2vw;
+    font-weight: 600;
+}
+.footer button {
+    padding: 1vw 2vw;
+    border: none;
+    background-color: #5395f9;
+    color: white;
+    font-size: 1.2vw;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.footer-info {
+    margin-top: 20px;
+    font-size: 1vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.footer-info i {
+    margin-right: 5px;
+}
+.footer-bottom {
+    margin-top: 30px;
+    font-size: 1vw;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+.footer-bottom .odoo {
+    color: #5395f9;
+}
