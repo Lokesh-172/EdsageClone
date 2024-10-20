@@ -18,6 +18,12 @@ html, body {
     padding: 1vw 0;
     margin-bottom: 10px;
 }
+.navButton:hover,
+.navButton:visited,
+.navButton:active {
+    color: black;
+    text-decoration: none; 
+}
 .box {
     z-index: 1000;
     padding: 0px 25px;
@@ -41,6 +47,7 @@ html, body {
     font-size: 1.2vw;
     color: black;
     cursor: pointer;
+    text-decoration: none;
 }
 .navButton button {
     padding: 0.5vw 1.5vw;
