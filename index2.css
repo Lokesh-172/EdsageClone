@@ -508,4 +508,46 @@ html, body {
     font-size: 50px;
     width: 100%;
 }
+/* sign in pages */
+.loginPage {
+    width: 100%;
+    height: 350px;
+}
+
+.loginPage label {
+    width: 300px;
+    font-family: Noto Sans Oriya;
+    color: #212529;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.loginPage input{
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px black solid;
+    padding-left: 10px;
+}
+.login_submit {
+    border: 2px solid #83B3FC;
+    margin-top: 20px;
+    padding: 20px 30px;
+    border-radius: 40px;
+    font-size: 1.5vw;
+    background-color: #83B3FC;
+    width: 300px;
+}
+.noAcc {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: blue;
+}
+/* Done with login pages */
 
