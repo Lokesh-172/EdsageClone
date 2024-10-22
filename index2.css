@@ -365,6 +365,8 @@ html, body {
 #ContactUsEmailLink a:visited {
     color: white;
 }
+
+/* Blog and help page*/
 .helpPage {
     background-color: white;
 }
