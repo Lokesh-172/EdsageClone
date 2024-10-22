@@ -365,3 +365,89 @@ html, body {
 #ContactUsEmailLink a:visited {
     color: white;
 }
+.helpPage {
+    background-color: white;
+}
+.label_ticket {
+    width: 200px;
+    font-family: Noto Sans Oriya;
+    color: #212529;
+    font-size: 16px;
+}
+.ask {
+    width: 500px;
+    margin-left: 20px;
+    border-radius: 6px;
+    border: 1px black solid;
+}
+.input_ticket {
+    margin-left: 20px;
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px black solid;
+}
+.submit_ticket {
+    border: 2px solid #83B3FC;
+    padding: 20px 30px;
+    border-radius: 40px;
+    font-size: 1.5vw;
+    background-color: #83B3FC;
+    margin-left: 330px;
+    margin-bottom: 30px;
+
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    align-items: center;
+    margin-left: 110px;
+}
+.head_form {
+    margin-top: 40px;
+    font-size: 42.015px;
+    color: dimgrey;
+    margin-left: 110px;
+    font-family: Odoo Unicode support noto;
+    color: #212529BF;
+    font-weight: 900;
+}
+.attachment_ticket{
+    margin-left: 20px;
+    width: 500px;
+    background-color: #Black, FFFFFF;
+    border-radius: 6px;
+    border: 1px black solid;
+    font-size: 18px;
+    font-family: Odoo Unicode support noto;
+    font-weight: 100;
+}
+.news {
+    margin-top: 10px;
+    background-color: black;
+    height: 150px;
+    color: white;
+    padding-top: 50px;
+    padding-left: 7%;
+    font-size: 50px;
+}
+.post {
+    background-color: white;
+    height: 100px;
+    padding-left: 7%;
+    color: black;
+    font-size: 50px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.blog {
+    background-color: white;
+    height: 100px;
+    padding-left: 7%;
+    font-size: 15px;
+    padding-top: 40px;
+}
+
