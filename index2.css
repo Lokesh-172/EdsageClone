@@ -551,3 +551,78 @@ html, body {
 }
 /* Done with login pages */
 
+/* pricing page */
+
+.topcontent h1 {
+    font-size: 38px;
+}
+
+.topcontent p {
+    font-size: 14px;
+}
+
+.topcontent {
+    margin: 50px 96px 111px;
+    padding: 0px 15px;
+}
+
+.pricinghead {
+    width: 100%;
+    height: 110px;
+    padding-top: 24px;
+    background-image: url(https://edsage.odoo.com/web/image/website.s_parallax_default_image);
+}
+
+.pricingcontent h1 {
+    color: white;
+    font-size: 62px;
+    margin: 0px 111px;
+}
+
+.connect {
+    border: 1px solid black;
+    border-radius: 10px;
+    align-content: center;
+}
+
+button {
+    width: 100%;
+    color: #6FA8FE;
+    border-radius: 25px;
+    padding: 8px 16px;
+    margin: 10px 0px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #5395f9;
+    transition: 0.5s;
+    color: black;
+}
+
+.tickpoints img {
+    width: 16px;
+    height: 16px;
+}
+
+.tickpoints {
+    padding: 8px 0px;
+    line-height: 28px;
+    font-size: 16px !important;
+}
+
+.lastpoint {
+    background-color: #21252908;
+    align-items: center;
+}
+
+.connect h1 {
+    margin: 0px 0px 8px;
+}
+
+.connect {
+    padding: 48px 15px;
+    margin: 40px 150px;
+}
+
+/* pricing page completed */
