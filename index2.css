@@ -626,3 +626,88 @@ html, body {
 }
 
 /* pricing page completed */
+
+
+/* About Us Page*/
+
+
+.aboutUs{
+    height: 45vh;
+    background-image: url(138509.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+}
+.lienOnAboutUs{
+    background-color: gray;
+    opacity: 0.8;                
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.3); 
+
+}
+.aboutUsMain{
+    padding: 0px 30px;
+}
+.Developer{
+    font-size: 1.5vw;
+    color: rgb(102, 98, 98);
+}
+.WeDo{
+    font-size: 2vw;
+    color: rgb(68, 62, 62);
+}
+.WhatWeDoIN{
+    font-size: 1.4vw;
+    color: rgb(102, 98, 98);
+}
+.profileOfEach{
+    padding: 20px 30px;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    gap: 10px; 
+}
+.pr{
+    height: 100%;
+    width: 33.33%;  
+    box-shadow:     2px 2px 2px rgba(0, 0, 0, 0.3), 
+    -2px 2px 2px rgba(0, 0, 0, 0.3),  
+    2px -2px 2px rgba(0, 0, 0, 0.3),
+    -2px -2px 2px rgba(0, 0, 0, 0.3); 
+}
+.pfimageAbout{
+    height: 35%;
+    width: 100%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+#pfimageline{
+    background-color: blue;
+    height: 4px;
+}
+.pfimagebox{
+    background-image: url(Anon.jpg);
+    border: 5px white solid;
+    height: 100%;
+    width: 40%;
+    border-radius: 50%;
+}
+.aboutUstitle, .aboutUspost{
+    font-size: 0.7vw;
+    padding: 10px 10px;
+    text-align: center;
+}
+#pr2 .pfimagebox{
+    background-image: url(PF_Lokesh.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.aboutUsDescription{
+    font-size: 1.3vw;
+    padding: 10px 25px;
+}
+
+/*About us Page CSS End*/
