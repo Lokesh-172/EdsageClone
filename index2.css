@@ -585,7 +585,7 @@ html, body {
     align-content: center;
 }
 
-button {
+.Meeting_Book {
     width: 100%;
     color: #6FA8FE;
     border-radius: 25px;
@@ -594,7 +594,7 @@ button {
     font-size: 16px;
 }
 
-button:hover {
+.Meeting_Book:hover {
     background-color: #5395f9;
     transition: 0.5s;
     color: black;
