@@ -711,3 +711,180 @@ html, body {
 }
 
 /*About us Page CSS End*/
+
+
+
+
+/* pricing page start */
+
+
+.topcontent h1 {
+    font-size: 38px;
+}
+
+.topcontent p {
+    font-size: 14px;
+}
+
+.topcontent {
+    margin: 50px 96px 111px;
+    padding: 0px 15px;
+}
+
+.pricinghead {
+    width: 100%;
+    height: 110px;
+    padding-top: 24px;
+    background-image: url(https://edsage.odoo.com/web/image/website.s_parallax_default_image);
+}
+
+.pricingcontent h1 {
+    color: white;
+    font-size: 62px;
+    margin: 0px 111px;
+}
+
+.connect {
+    border: 1px solid black;
+    border-radius: 10px;
+    align-content: center;
+}
+
+button {
+    width: 100%;
+    color: #6FA8FE;
+    border-radius: 25px;
+    padding: 8px 16px;
+    margin: 10px 0px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #5395f9;
+    transition: 0.5s;
+    color: black;
+}
+
+.tickpoints img {
+    width: 16px;
+    height: 16px;
+}
+
+.tickpoints {
+    padding: 8px 0px;
+    line-height: 28px;
+    font-size: 16px !important;
+}
+
+.lastpoint {
+    background-color: #21252908;
+    align-items: center;
+}
+
+.connect h1 {
+    margin: 0px 0px 8px;
+}
+
+.connect {
+    padding: 48px 15px;
+    margin: 40px 150px;
+}
+
+
+/* pricing page ends */
+
+/* courses page starts */
+
+
+.coursescontent {
+    margin-left: 30px;
+}
+
+.coursescontent h1 {
+
+    font-size: 50px;
+}
+
+.coursescontent h2 {
+    font-size: 40px;
+}
+
+
+
+.courseshead {
+    background-color: #5395f9;
+    width: 100%;
+}
+
+.courses {
+
+    display: flex;
+    justify-content: space-evenyl;
+    flex-wrap: wrap;
+
+}
+
+.coursescontent p {
+    font-size: 20px;
+}
+
+.heading {
+    font-size: 20px;
+
+
+}
+
+.cols {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 10px;
+    background-color: white;
+    border-radius: 10px;
+    flex: 0 1 calc(33.33% - 20px);
+
+}
+
+.info {
+    color: rgb(0, 0, 0);
+
+
+}
+
+.lol {
+    color: white;
+}
+
+
+.row-one,
+.row-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.courses .image {
+    flex: 0 1 calc(33.33% - 20px);
+    border-radius: 10px;
+    padding-bottom: 10px;
+
+}
+
+.courses .image img {
+    height: 100%;
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+
+
+
+}
+
+
+
+/* 
+ courses page ends
+ */
