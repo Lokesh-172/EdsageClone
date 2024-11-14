@@ -40,8 +40,8 @@
             
             <div class="form-group">
                 <label class="label_ticket" for="phone-number">Phone Number *</label>
-                <input class="input_ticket" type="text" id="phone-number" required pattern="\d{10}" maxlength="13" value="+91"
-                       title="Phone number should be 10 digits long."> <br>
+                <input class="input_ticket" type="text" id="phone-number" required pattern="(\+91 - )?\d{10}" maxlength="16" value="+91 - " title="Phone number should be 10 digits long."> 
+                <br>
             </div>
             
             <div class="form-group">
